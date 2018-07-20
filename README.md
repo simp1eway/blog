@@ -12,10 +12,11 @@
 pip install -r requirements.txt
 ```
 
-* Включение DEBUG-режима
+* Включение DEBUG-режима в Linux
 ```
 export FLASK_ENV=development
 ```
+(В случае Windows, надо заменить `export` на `set`)
 
 * Запуск веб-сервиса
 ```
